@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* head section */
+header{
+    background-image: url(../images/donation13.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+
+}
+.home{
+    padding: 15%;
+    color: whitesmoke;  
+}
+.home h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.home p{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.main-btn{
+    background-color: tomato;
+    border: none;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: larger;
+    border-radius: 10px;
+}
+main{
+    margin: 130px 150px;
+}
+.donate-today{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.donate-today-title{
+    margin-bottom: 50px;
+}
+.donate-today-description{
+    width: 500px;
+    margin: auto;
+}
+.amount-block{
+    display: flex;
+    text-align: center;    
+    justify-content: space-evenly;
+    
+}
+.amount-block .donation-amount{
+    width: 130px;
+    height: auto;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 8px gray;    
+}
+.donate-today input{
+    border: none;
+    padding: 10px 30px;
+    margin: 40px auto 10px 40px;
+    
+}
+.donate-today button{
+    margin-top: 20px;
+}
+.plan-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.plan-title, .plan-description{
+    text-align: center;    
+}
+.plan-description{
+    max-width: 800px;
+    margin: 30px auto;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan-block{
+    width: 250px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+.plan-block img, h2{
+    margin-bottom: 20px;
+}
+.contribute .block{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.contribute .block img{
+    width: 500px;
+}
+.contribute .min-block h1,p{
+    margin-bottom: 30px;
+}
+.update{
+    text-align: center;
+    
+}
+.update-text h2{
+    margin: 100px;
+}
+.update-info{
+    margin-top: 50px;
+    padding: 100px;
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    
+}
+.update-info input{
+    padding: 20px 30px;
+}
+.update-info button{
+    background-color: tomato;
+    border: none;
+    padding: 18px;
+    color: whitesmoke;
+    font-size: larger;
+    
+}
+footer{
+    height: 150px;
+    background-color: #0B0D17;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+footer h2{
+    padding:50px 0 0 0;
+    color: #FF5959;
+}
